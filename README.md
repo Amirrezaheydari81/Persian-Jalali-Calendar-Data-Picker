@@ -10,7 +10,7 @@ Jalali calendar, beautiful user interface
 
 ### Dark Theme Photo
 
-<img src="calender-project/Screenshot.png">
+<img src="screenshots/Screenshot -v1.0.1.png">
 
 #### New themes with newer color schemes will be added in the future
 
