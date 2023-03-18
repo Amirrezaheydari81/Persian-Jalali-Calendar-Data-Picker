@@ -13,3 +13,11 @@ Jalali calendar, beautiful user interface
 <img src="calender-project/Screenshot.png">
 
 #### New themes with newer color schemes will be added in the future
+
+
+#### Log
+
+- v1.0.0
+    - Create First theme (Dark)
+- v1.0.1
+    - Add Persian Number
