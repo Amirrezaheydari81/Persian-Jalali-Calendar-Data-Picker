@@ -1,0 +1,140 @@
+:root {
+    --red: #0ea5e9;
+    --bg-red: #2564eb42;
+    --bg-to-day: #dff0d8;
+    --color-to-day: green;
+    --fff: #ffffff;
+    --bg-white: #ffffff;
+    --color-bg-white: #ffffff;
+    --table-thead: #9ca3af;
+    --bd-empty-cell: #6B7280;
+}
+
+/*! kamadatepicker - version 1.5.3 */
+.bd-hide {
+    display: none
+}
+
+.bd-main {
+    background-color: var(--bg-white);
+    border: 1px solid #000;
+    padding: 5px;
+    z-index: 9999;
+    width: auto !important;
+    /* width: 100% !important; */
+    margin: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19)
+}
+
+.bd-calendar {
+    width: 266px;
+    padding: 0;
+    margin: 0
+}
+
+.bd-calendar table {
+    border: none;
+    width: 266px
+}
+
+.bd-title {
+    width: 266px;
+    padding: 0;
+    margin: 0
+}
+
+.bd-dropdown {
+    display: inline-block;
+    float: right;
+    width: 75px
+}
+
+.bd-dropdown select {
+    width: 100%
+}
+
+.bd-dropdown select,
+.bd-next,
+.bd-prev {
+    height: 30px;
+    /* border: none; */
+    cursor: pointer;
+}
+
+.bd-next,
+.bd-prev {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: var(--bg-white);
+    width: 30px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    float: right;
+    font-size: 90%;
+}
+
+.bd-table thead {
+    background-color: var(--table-thead);
+    color: var(--color-bg-white);
+}
+
+.bd-table thead tr {
+    height: 30px;
+    cursor: context-menu
+}
+
+.bd-table thead tr th {
+    text-align: center
+}
+
+.bd-table tbody tr td {
+    border: none;
+}
+
+.bd-empty-cell,
+.bd-table-days button {
+    width: 30px;
+    height: 30px;
+    background:var(--bd-empty-cell);
+}
+
+.bd-table-days button {
+    background-color: #f8f8f8;
+    border: 0
+}
+
+.bd-table-days button:hover:enabled {
+    color: var(--red);
+    font-weight: 700;
+    background-color: var(--bg-red) !important;
+    cursor: pointer
+}
+
+.bd-table-days button:disabled {
+    background-color: #eee
+}
+
+.bd-today {
+    background-color: var(--bg-to-day) !important;
+    color: var(--color-to-day);
+}
+
+.bd-holiday {
+    background-color: #fde8e8 !important
+}
+
+.bd-selected-day {
+    color: var(--red);
+    font-weight: 700;
+}
+
+.bd-goto-today {
+    width: 266px;
+    height: 35px;
+    color: #fff;
+    background-color: #555;
+    padding-top: 5px;
+    cursor: pointer;
+    text-align: center
+}

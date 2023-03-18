@@ -1,0 +1,14 @@
+{
+  "name": "calender-jquery-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tw":"npx tailwindcss -i ./tailwindcss.css -o ./css/style.css",
+    "tww":"npx tailwindcss -i ./tailwindcss.css -o ./css/style.css --watch",
+    "twm":"npx tailwindcss -i ./tailwindcss.css -o ./css/style.css --minify"
+  },
+  "author": "",
+  "license": "MIT"
+}
